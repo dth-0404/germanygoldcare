@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Gold Care - Giới thiệu</title>
+   <meta http-equiv="Cache-control" content="no-cache">
+   <meta http-equiv="Expires" content="-1">
+   <meta name="robots" content="noodp,noydir">
+   <meta name="format-detection" content="telephone=no">
+   <meta property="og:site_name" content="Gold Care">
+   <meta name="description" content=" Gold Care">
+   <meta name="keywords" content="Gold Care">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:title" content="Gold Care" />
+   <meta property="og:type" content="website" />
+   <meta property="og:image" content="img/product.png">
+   <meta property="og:description" content="Gold Care" />
+   <meta name="format-detection" content="telephone=no" />
+   <link rel="shortcut icon" type="image/png" href="img/product.png" />
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/respon.css">
+   <link rel="stylesheet" type="text/css" href="css/all.css">
+   <link rel="stylesheet" type="text/css" href="css/aos.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+</head>
+
+<body>
+   <!-- POPUP DISCOUNT -->
+   <div class="modal fade " style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+         <div class="modal-content form-discount">
+            <div class="row">
+               <div class=" col-lg-6 col-md-12 col-sm-12 col-12 box-modal-img pr-0">
+                  <img src="img/sale-off-promotion.png" class="img-modal" alt="khuyen-mai-gold-care" title="Gold Care">
+               </div>
+               <div class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-form d-flex align-items-center pl-0">
+                  <form action="" method="post">
+                     <div class="modal-header text-center">
+                        <h4 class="modal-title w-100">Đăng kí nhận giá ưu đãi</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true"><i class="fal fa-times-circle"></i></span>
+                        </button>
+                     </div>
+                     <div class="modal-body mx-3 pt-4 pb-4">
+                        <div class="md-form mb-3">
+                           <label>Họ tên</label>
+                           <input type="text" name="name" class="form-control validate" required autocomplete="off">
+                        </div>
+                        <div class="md-form mb-3">
+                           <label>Số điện thoại</label>
+                           <input type="text" name="phone" class="form-control validate only_number" required
+                              autocomplete="off" maxlength="10" onkeypress="validate(event)">
+                           <center>
+                              <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký ngay</button>
+                           </center>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- header -->
+   <header>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="navbar d-flex align-items-center justify-content-between">
+                  <div class="logo">
+                     <a href="index.html"><img src="img/logo.png" alt="logo-gold-care" title="Gold Care"
+                           class="img-fluid"></a>
+                     <button class="navbar-bar"><i class="fal fa-bars"></i></button>
+                  </div>
+                  <nav class="navbar-content">
+                     <div class="navbar-close"><i class="fal fa-times"></i></div>
+                     <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="blog.html">Kiến thức sức khỏe</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">Đặt hàng
+                              ngay</a></li>
+                     </ul>
+                  </nav>
+                  <div class="navbar-button">
+                     <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modalLoginForm">Đặt hàng
+                        ngay</a>
+                  </div>
+                  <div class="nav-item dropdown flag-mobile">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img alt="Việt Nam" id="vietnam" src="img/icon_vn.png">
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" data-flag="vietnam" href="">
+                           <img alt="Việt Nam" src="img/icon_vn.png">
+                           Tiếng Việt</a>
+                        <hr>
+                        <a class="dropdown-item" data-flag="germany" href="">
+                           <img alt="Germany" src="img/icon_de.png">
+                           Germany</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="about-banner">
+      <div class="container h-100">
+         <div class="row h-100">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center">
+               <div class="about-banner__content">
+                  <h5>TẠI SAO NÊN DÙNG <span>GERMANY GOLD CARE</span></h5>
+                  <p>Bệnh tiểu đường nếu không được chữa trị kịp thời và đúng cách có thể dẫn đến biến chứng về tim,
+                     mắt, thận thậm chí nặng là hoại tử chân tay thì vô phương cứu chữa. Tuy nhiên, mọi người đừng quá
+                     lo lắng nhé! Tiểu đường lâu năm, đường huyết cao đến mấy mà lựa chọn sử dụng Germany Gold Care và
+                     sử dụng đúng theo liệu trình: Ngày uống 2 lần, mỗi lần 1 viên thì người bệnh sẽ thấy hiệu quả rõ
+                     rệt.
+                     <br><br>
+                     Sản phẩm Germany Gold Care đã được nghiên cứu bởi đội ngũ chuyên gia, bác sĩ hàng đầu, các nguyên
+                     liệu được tuyển chọn kỹ càng, trải qua quy trình sản xuất khép kín trên dây chuyền công nghệ hiện
+                     đại đến từ Đức, đã được kiểm nghiệm lâm sàng trước khi đưa ra thị trường.. <br><br>
+                     Germany Gold Care được bào chế bằng công nghệ Nano hiện đại đã biến hoạt chất trong các dược liệu
+                     thành một dạng viên nén dễ uống, phù hợp cho mọi người sử dụng trong bất kỳ hoàn cảnh nào, rất tiện
+                     lợi đúng không nào?.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 h-100">
+               <div class="about-box-img h-100 position-relative">
+                  <figure><img src="img/bac-si.png" class="img-fluid" alt="tai-sao-nen-dung-gold-care" title="Bác sĩ">
+                  </figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Customer -->
+   <section class="section customer" style="background: none;">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-4 col-md-12 col-12 right-none">
+               <div class="customer-side" data-aos="fade-right" data-aos-duration="1500">
+                  <h6>Chú Lê Tuấn Dũng</h6>
+                  <p>Tôi có thể khẳng định một cách chắc chắn rằng Germany Gold Care chính là sản phẩm tốt nhất trên thị
+                     trường có thể giúp người bệnh điều trị bệnh cao huyết áp.
+                     <br><br>
+                     Tôi kiên trì dùng hết 2 hộp thì khỏi bệnh luôn và không tái phát gì. Tôi hạnh phúc lắm.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 left-none" data-aos="fade-left" data-aos-duration="1500">
+               <!-- <video></video> -->
+               <figure><img src="img/customer.png" class="img-fluid" alt="khach-hang" title="Khách hàng"></figure>
+            </div>
+         </div>
+   </section>
+   <!--- footer --->
+   <footer class="footer">
+      <div class="footer_content">
+         <div class="container">
+            <div class="row">
+               <!-- Footer About -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_about">
+                     <div class="footer_logo">
+                        <a href="">
+                           <img alt="Gold Care" src="img/logo-footer.png" title="Gold Care" class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="footer_about_text">
+                        <p>Phân phối độc quyền bởi <br>Công ty TNHH Soji Labs</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Footer Contact Info -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_contact">
+                     <div class="footer_title">Liên hệ</div>
+                     <ul class="contact_list">
+                        <li><i class="fal fa-phone"></i><a href="tel:02873070789">02873070789</a></li>
+                        <li><i class="fal fa-envelope-open"></i><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></li>
+                        <li><i class="fal fa-browser"></i><a href="#">https://germanygoldcare.com/</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Footer Locations -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_location">
+                     <div class="footer_title">Địa chỉ</div>
+                     <ul class="locations_list">
+                        <li>
+                           <div class="location_title">TP. Hồ Chí Minh</div>
+                           <div class="location_text">
+                              <p><i class="fal fa-map-marker-alt" style="margin-right: 10px"></i>199 Điện Biên Phủ,
+                                 Phường 15, Bình Thạnh</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Footer Opening Hours -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="opening_hours">
+                     <div class="footer_title">Theo dõi Gold Care</div>
+                     <ul class="opening_hours_list">
+                        <li>
+                           <a target="_blank" href="#"><img alt="Facebook" title="Facebook" src="img/icon-facebook.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Twitter" title="Twitter" src="img/icon-twitter.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Youtube" title="Youtube" src="img/icon-youtube.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Instagram" title="Instagram" src="img/icon-ins.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Viber" title="Viber" src="img/icon-viber.png">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+   <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+      href="tel:02873070789">
+      <div id="calltrap-ico"></div>
+   </a>
+   <script type="text/javascript" src="js/jquery3.3.1.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/aos.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

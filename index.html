@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Germany Gold Care - Trang chủ</title>
+   <meta http-equiv="Cache-control" content="no-cache">
+   <meta http-equiv="Expires" content="-1">
+   <meta name="robots" content="noodp,noydir">
+   <meta name="format-detection" content="telephone=no">
+   <meta property="og:site_name" content="Gold Care">
+   <meta name="description" content="Gold Care">
+   <meta name="keywords" content="Gold Care">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:title" content="Gold Care" />
+   <meta property="og:type" content="website" />
+   <meta property="og:image" content="img/product.png">
+   <meta property="og:description" content="Gold Care" />
+   <meta name="format-detection" content="telephone=no" />
+   <link rel="shortcut icon" type="image/png" href="img/product.png" />
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   <link rel="stylesheet" type="text/css" href="css/respon.css">
+   <link rel="stylesheet" type="text/css" href="css/all.css">
+   <link rel="stylesheet" type="text/css" href="css/aos.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+</head>
+
+<body>
+   <!-- POPUP DISCOUNT -->
+   <div class="modal fade" style="padding-right: 0!important;" id="modalLoginForm" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+         <div class="modal-content form-discount">
+            <div class="row">
+               <div class=" col-lg-6 col-md-12 col-sm-12 col-12 box-modal-img pr-0">
+                  <img src="img/sale-off-promotion.png" class="img-modal" alt="khuyen-mai-gold-care"
+                     title="Khuyến mãi Gold Care">
+               </div>
+               <div class="col-lg-6 col-md-12 col-sm-12 col-12 box-modal-form d-flex align-items-center pl-0">
+                  <form action="" method="post">
+                     <div class="modal-header text-center">
+                        <h4 class="modal-title w-100">Đăng ký nhận giá ưu đãi</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true"><i class="fal fa-times-circle"></i></span>
+                        </button>
+                     </div>
+                     <div class="modal-body mx-3 pt-4 pb-4">
+                        <div class="md-form mb-3">
+                           <label>Họ tên</label>
+                           <input type="text" name="name" class="form-control validate" autocomplete="off" required>
+                        </div>
+                        <div class="md-form mb-3">
+                           <label>Số điện thoại</label>
+                           <input type="text" name="phone" class="form-control validate only_number" autocomplete="off"
+                              required maxlength="10" onkeypress="validate(event)">
+                           <center>
+                              <button class="btn btn-default mt-4 js_submit" type="submit">Đăng ký ngay</button>
+                           </center>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- header -->
+   <header>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="navbar d-flex align-items-center justify-content-between">
+                  <div class="logo">
+                     <a href="index.html"><img src="img/logo.png" alt="logo-gold-care" title="Gold Care"
+                           class="img-fluid"></a>
+                     <button class="navbar-bar"><i class="fal fa-bars"></i></button>
+                  </div>
+                  <nav class="navbar-content">
+                     <div class="navbar-close"><i class="fal fa-times"></i></div>
+                     <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="about.html">Giới thiệu</a></li>
+                        <li><a href="blog.html">Kiến thức sức khỏe</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li id="btn-order"><a href="#" data-toggle="modal" data-target="#modalLoginForm">Đặt hàng
+                              ngay</a></li>
+                     </ul>
+                  </nav>
+                  <div class="navbar-button">
+                     <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#modalLoginForm">Đặt hàng
+                        ngay</a>
+                  </div>
+                  <div class="nav-item dropdown flag-mobile">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img alt="Việt Nam" id="vietnam" src="img/icon_vn.png">
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" data-flag="vietnam" href="">
+                           <img alt="Việt Nam" src="img/icon_vn.png">
+                           Tiếng Việt</a>
+                        <hr>
+                        <a class="dropdown-item" data-flag="germany" href="">
+                           <img alt="Germany" src="img/icon_de.png">
+                           Germany</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- Banner -->
+   <section class="banner">
+      <div class="container h-100">
+         <div class="row h-100">
+            <div class="col-md-10 col-sm-12 col-12 h-100 d-flex align-items-center">
+               <div class="banner-box-text" data-aos="fade-right" data-aos-duration="1500">
+                  <h1 class="banner-text">#mất kiểm soát đường huyết</h1>
+                  <h1 class="banner-text">#cholesterol và lipit máu cao</h1>
+                  <h1 class="banner-text-btn mt-3"><span>đang</span> là nổi lo lắng của bạn</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Reason -->
+   <section class="section reason">
+      <div class="container">
+         <!-- Title section -->
+         <div class="row">
+            <div class="col-12">
+               <h2 class="section-title">Tại sao nên dùng <span>germany gold care</span></h2>
+            </div>
+         </div>
+         <!-- Content Reason -->
+         <div class="row">
+            <div class="col-md-4 col-sm-12 col-12 d-flex align-items-center">
+               <figure data-aos="fade-right" data-aos-duration="1500">
+                  <img src="img/product.png" class="img-fluid" alt="san-pham-gold-care" title="Gold Care">
+               </figure>
+            </div>
+            <div class="col-md-8 col-sm-12 col-12">
+               <div class="reason-main-text" data-aos="fade-left" data-aos-duration="1500">
+                  <div class="reason-box-text row-1">
+                     <div class="reason-row"></div>
+                     <div class="reason-col"></div>
+                     <div class="item">
+                        <h6># Giảm cholesterol & lipid máu</h6>
+                        <p>Giảm cholesterol và lipid trong máu, Germany Gold Care giúp ngăn ngừa nguy cơ và khả năng về
+                           bệnh tim mạch.</p>
+                     </div>
+                  </div>
+                  <div class="reason-box-text row-1">
+                     <div class="reason-row"></div>
+                     <div class="reason-col"></div>
+                     <div class="item">
+                        <h6># Ổn định nhịp tim </h6>
+                        <p>Germany Gold Care giúp ổn định nhịp tim với các dấu hiệu hồi hợp, chóng mặt, kèm theo khó thở
+                           hoặc có thể ngất. </p>
+                     </div>
+                  </div>
+                  <div class="reason-box-text row-2">
+                     <div class="reason-row"></div>
+                     <div class="reason-col"></div>
+                     <div class="item">
+                        <h6># Ổn định đường huyết</h6>
+                        <p>Ổn định lượng đường trong máu, ngăn chặn nguy cơ của bệnh đái tháo đường vì có mướp đắng
+                           trong Germany Gold Care.</p>
+                     </div>
+                  </div>
+                  <div class="reason-box-text row-2">
+                     <div class="reason-row"></div>
+                     <div class="reason-col"></div>
+                     <div class="item">
+                        <h6># Cải thiện thị giác</h6>
+                        <p> Giúp giảm tình trạng bị mỏi mắt và tăng cường sức mạnh các cơ mắt.
+                           Cải thiện sức khỏe của mắt giúp thị lực trở nên tốt hơn.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Element -->
+   <section class="section element">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="section-title">Thành phần từ thiên nhiên</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-6 col-12">
+               <div class="element-box ebox-1" data-aos="fade-right" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-1.png" class="img-fluid" alt="cao-day-canh-thia" title="Cao Dây Canh Thìa">
+                        <figcaption>Cao dây canh thìa</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Giúp tăng bài tiết hooc môn chuyển hóa đường, ức chế hấp thu đường ở ruột, gan, tăng khả năng
+                        tiêu thụ Glucose, giảm lượng và ổn định đường huyết.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="element-box" data-aos="fade-left" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-2.png" class="img-fluid" alt="cao-muop-dang" title="Cao Mướp Đắng">
+                        <figcaption>Cao Mướp Đắng</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Điều hòa sự hấp thụ của các glucose, thúc đẩy chuyển hóa của chất charantin, giảm nồng độ đường
+                        trong máu, ổn định và hạ đường huyết.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="element-box" data-aos="fade-right" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-3.png" class="img-fluid" alt="cao-nam-linh-chi" title="Cao Nấm Linh Chi">
+                        <figcaption>Cao Nấm Linh Chi</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Có công dụng hỗ trợ điều trị huyết áp cao, điều hòa và ổn định các triệu chứng bệnh mỡ máu, hòa
+                        tan các khối huyết làm tắc mạch máu, giảm nồng độ mỡ trong máu.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="element-box" data-aos="fade-left" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-4.png" class="img-fluid" alt="cao-qua-nhau" title="Cao Quả Nhàu">
+                        <figcaption>Cao Quả Nhàu</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Cao quả nhàu hỗ trợ giúp lưu thông máu huyết dễ dàng, ổn định huyết áp, chữa trị các triệu chứng
+                        chóng mặt, mất ngủ, nhức mỏi chân tay hiệu quả.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="element-box" data-aos="fade-right" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-5.png" class="img-fluid" alt="tao-xoan-spirulina" title="Tảo xoắn Spirulina">
+                        <figcaption>Tảo xoắn Spirulina</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Là loại tảo chứa nhiều chất sắt, protein, kali và nhiều khoáng chất có lợi giúp giảm huyết áp,
+                        hỗ trợ điều trị bệnh béo phì, ngăn chặn đái tháo đường hiệu quả.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-12">
+               <div class="element-box" data-aos="fade-left" data-aos-duration="1500">
+                  <div class="img">
+                     <figure>
+                        <img src="img/e-6.png" class="img-fluid" alt="tao-xoan-spirulina" title="Alpha Lipoic Acid">
+                        <figcaption>Alpha Lipoic Acid</figcaption>
+                     </figure>
+                  </div>
+                  <div class="text">
+                     <p>Ngăn chặn sự hình thành tiềm ẩn căn bệnh xơ vữa động mạch vành, cao huyết áp, giảm đường huyết,
+                        giảm các biến chứng của đái tháo đường type II.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Review -->
+   <section class="section review">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="section-title">Đánh giá từ chuyên gia</h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-6 col-md-12 col-12 location-doctor position-relative">
+               <figure data-aos="fade-up" data-aos-duration="1500" class="box-img-doctor"><img src="img/bac-si.png"
+                     class="img-fluid img-bacsi" alt="bac-si-danh-gia-gold-care" title="Bác sĩ"></figure>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 center-main">
+               <div class="review-main">
+                  <div class="review-box" data-aos="fade-left" data-aos-duration="1500">
+                     <figure class="text-center">
+                        <img src="img/r-1.png" class="img-fluid" alt="ho-tro-duong-huyet">
+                     </figure>
+                     <p>Giúp hỗ trợ ổn định đường huyết lâu dài, không lo tái phát lại</p>
+                  </div>
+                  <div class="review-box" data-aos="fade-left" data-aos-duration="1500">
+                     <figure class="text-center">
+                        <img src="img/r-2.png" class="img-fluid" alt="khong-co-trieu-chung-tieu-nhieu">
+                     </figure>
+                     <p>Không còn các triệu chứng khát nước, tiểu nhiều, tiểu đêm, ….</p>
+                  </div>
+                  <div class="review-box" data-aos="fade-left" data-aos-duration="1500">
+                     <figure class="text-center">
+                        <img src="img/r-3.png" class="img-fluid" alt="gold-care-phat-huy-hieu-qua">
+                     </figure>
+                     <p>Germany Gold Care phát huy hiệu quả từ lần đầu tiên sử dụng</p>
+                  </div>
+                  <div class="review-box" data-aos="fade-left" data-aos-duration="1500">
+                     <figure class="text-center">
+                        <img src="img/r-4.png" class="img-fluid" alt="khong-tac-dung-phu">
+                     </figure>
+                     <p>Sản phẩm 100% từ thiên nhiên an toàn, không tác dụng phụ</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Review-text -->
+   <section class="review-text" data-aos="zoom-in" data-aos-duration="1500">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="box-review-text" id="review-box-1">
+                  <p><i class="fas fa-quote-left"></i>Bệnh tiểu đường nếu không được chữa trị kịp thời và đúng cách có
+                     thể dẫn đến biến chứng về tim, mắt, thận thậm chí nặng là hoại tử chân tay thì vô phương cứu chữa.
+                     Tuy nhiên, mọi người đừng quá lo lắng nhé! Tiểu đường lâu năm, đường huyết cao đến mấy mà lựa chọn
+                     sử dụng Germany Gold Care và sử dụng đúng theo liệu trình: Ngày uống 2 lần, mỗi lần 1 viên thì
+                     người bệnh sẽ thấy hiệu quả rõ rệt. </p>
+                  <p>
+                     Sản phẩm Germany Gold Care đã được nghiên cứu bởi đội ngũ chuyên gia, bác sĩ hàng đầu, các nguyên
+                     liệu được tuyển chọn kỹ càng, trải qua quy trình sản xuất khép kín trên dây chuyền công nghệ hiện
+                     đại đến từ Đức, đã được kiểm nghiệm lâm sàng trước khi đưa ra thị trường.
+                     Germany Gold Care được bào chế bằng công nghệ Nano hiện đại đã biến hoạt chất trong các dược liệu
+                     thành một dạng viên nén dễ uống, phù hợp cho mọi người sử dụng trong bất kỳ hoàn cảnh nào, rất tiện
+                     lợi đúng không nào?.
+                  </p>
+                  <p>
+                     Ngoài ra, Germany Gold Care là sản phẩm hỗ trợ giảm đường huyết, ngăn ngừa biến chứng tiểu đường
+                     đầu tiên tại Việt Nam ứng dụng thành công Công nghệ Nano vào các loại thảo dược thiên nhiên. Khi sử
+                     dụng sản phẩm này, bạn hoàn toàn không cần phải kiêng khem bất kỳ món “tủ” nào của mình, ăn uống
+                     thoải mái và tập thể dục đều đặn là có kết quả ngay.
+                     Theo tôi, công dụng của Germany Gold Care là không còn lời gì phải bàn cả, đây là sản phẩm ổn định
+                     lượng đường trong máu thích hợp cho mọi người, <span class="position-relative">mọi nhà.<i
+                           class="fas fa-quote-right"></i></span>
+                  </p>
+                  <p class="name-doctor">Thạc Sĩ Bác Sĩ Nguyễn Khắc Tâm chia sẻ về hiệu quả của Germany Gold Care</p>
+               </div>
+               <div class="box-review-text" id="review-box-2">
+                  <p><i class="fas fa-quote-left"></i>Bệnh tiểu đường nếu không được chữa trị kịp thời và đúng cách có
+                     thể dẫn đến biến chứng về tim, mắt, thận thậm chí nặng là hoại tử chân tay thì vô phương cứu chữa.
+                     Tuy nhiên, mọi người đừng quá lo lắng nhé! Tiểu đường lâu năm, đường huyết cao đến mấy mà lựa chọn
+                     sử dụng Germany Gold Care và sử dụng đúng theo liệu trình: Ngày uống 2 lần, mỗi lần 1 viên thì
+                     người bệnh sẽ thấy hiệu quả rõ rệt.</p>
+                  <p>
+                     Sản phẩm Germany Gold Care đã được nghiên cứu bởi đội ngũ chuyên gia, bác sĩ hàng đầu, các nguyên
+                     liệu được tuyển chọn kỹ càng, trải qua quy trình sản xuất khép kín trên dây chuyền công nghệ hiện
+                     đại đến từ Đức, đã được kiểm nghiệm lâm sàng trước khi đưa ra thị trường.
+                  </p>
+                  <p>
+                     Ngoài ra, Germany Gold Care là sản phẩm hỗ trợ giảm đường huyết, ngăn ngừa biến chứng tiểu đường
+                     đầu tiên tại Việt Nam ứng dụng thành công Công nghệ Nano vào các loại thảo dược thiên nhiên. Theo
+                     tôi, công dụng của Germany Gold Care là không còn lời gì phải bàn cả, đây là sản phẩm ổn định lượng
+                     đường trong máu thích hợp cho mọi người, <span class="position-relative">mọi nhà.<i
+                           class="fas fa-quote-right"></i></span>
+                  </p>
+                  <p class="name-doctor">Thạc Sĩ Bác Sĩ Nguyễn Khắc Tâm chia sẻ về hiệu quả của Germany Gold Care</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Customer -->
+   <section class="section customer">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="section-title">khách hàng nói gì <span>khi sử dụng</span> </h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-md-12 col-12 right-none">
+               <div class="customer-side" data-aos="fade-right" data-aos-duration="1500">
+                  <h6>Chú Lê Tuấn Dũng</h6>
+                  <p>Tôi có thể khẳng định một cách chắc chắn rằng Germany Gold Care chính là sản phẩm tốt nhất trên thị
+                     trường có thể giúp người bệnh điều trị bệnh cao huyết áp.
+                     <br><br>
+                     Tôi kiên trì dùng hết 2 hộp thì khỏi bệnh luôn và không tái phát gì. Tôi hạnh phúc lắm.
+                  </p>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 col-12 left-none" data-aos="fade-left" data-aos-duration="1500">
+               <!-- <video></video> -->
+               <figure>
+                  <img src="img/customer.png" class="img-fluid" alt="cam-nhan-khach-hang"
+                     title="Cảm nhận của khách hàng">
+               </figure>
+            </div>
+         </div>
+         <div class="customer-item mt-6" data-aos="fade-left" data-aos-duration="1500">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 col-12 customer__box-img right-none">
+                  <figure>
+                     <img src="img/cus-1.png" class="img-fluid" alt="cam-nhan-khach-hang-ve-gold-care"
+                        title="Khách hàng">
+                  </figure>
+               </div>
+               <div class="col-md-9 col-sm-12 col-12 customer__box-text left-none">
+                  <p>Năm trước, em gái tôi bị chẩn đoán là bệnh cao huyết áp. Nghe đâu căn bệnh này sẽ dai dẳng và theo
+                     em đến suốt đời, người trong gia đình ai cũng buồn và hoang mang. Tôi tìm đủ mọi cách để giúp em
+                     gái mình và rồi Germany Gold Care đến với em tôi như giấc mộng. Sau 1 tháng dùng kiên trì, em đã
+                     khỏi hẳn bệnh và được bác sĩ khuyên là con bé may mắn khi chọn đúng thuốc. Những ai còn đang phân
+                     vân thì hãy mua ngay đi nhé!</p>
+                  <p class="name-customer">Anh Minh Toàn (TP. HCM)</p>
+               </div>
+            </div>
+         </div>
+         <div class="customer-item" data-aos="fade-right" data-aos-duration="1500">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 col-12 customer__box-img right-none">
+                  <figure>
+                     <img src="img/cus-2.png" class="img-fluid" alt="cam-nhan-khach-hang-ve-gold-care"
+                        title="Khách hàng">
+                  </figure>
+               </div>
+               <div class="col-md-9 col-sm-12 col-12 customer__box-text left-none">
+                  <p>Bệnh tiểu đường của tôi ban đầu xuất hiện các triệu chứng như đi tiểu nhiều lần, cảm thấy khát
+                     nhiều, sụt cân mà không rõ nguyên nhân. Bác sĩ dặn tôi phải uống thuốc, ăn theo thực đơn quy định
+                     và theo dõi chỉ số đường huyết thường xuyên. Tôi áp dụng theo nhưng đường huyết vẫn trên 14, tôi lo
+                     lắm. Tôi được một người thân giới thiệu cho Germany Gold Care. Đến nay tôi đã uống gần 2 tháng, chỉ
+                     số đường huyết ổn định, mà cơ thể khỏe khoắn hơn rất nhiều. Tôi vô cùng biết ơn người đã sáng chế
+                     ra nó.</p>
+                  <p class="name-customer">Cô Bạch Tuyết (Hà Nội)</p>
+               </div>
+            </div>
+         </div>
+         <div class="customer-item" data-aos="fade-left" data-aos-duration="1500">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 col-12 customer__box-img right-none">
+                  <figure>
+                     <img src="img/cus-3.png" class="img-fluid" alt="cam-nhan-khach-hang-ve-gold-care"
+                        title="Khách hàng">
+                  </figure>
+               </div>
+               <div class="col-md-9 col-sm-12 col-12 customer__box-text left-none">
+                  <p>Tiểu đường đã hành hạ tôi suốt 8 năm, ngỡ như phải sống với nó nửa đời còn lại rồi. Ngờ đâu, đứa
+                     con trai của tôi trong một lần dạo trên mạng đã phát hiện ra Germany Gold Care và nó mua cho tôi
+                     uống. Ban đầu tôi mắng nó là mua làm gì, bố không còn hy vọng gì cả nhưng rồi được gia đình thuyết
+                     phục tôi uống thử xem sao. Chỉ sau 2 tuần, lượng đường trong máu đã giảm rõ rệt, tôi ăn ngon, ngủ
+                     yên và cơ thể khỏe khoắn, tươi tỉnh hơn bao giờ hết. Tôi sẽ tiếp tục dùng cho đến khi chỉ số này ổn
+                     định hẳn.</p>
+                  <p class="name-customer">Chú Cao Thắng (Phú Thọ)</p>
+               </div>
+            </div>
+         </div>
+         <div class="row customer__bottom">
+            <div class="col-md-7 col-12" data-aos="fade-right" data-aos-duration="1500" id="none-product">
+               <figure>
+                  <img src="img/sp-1.jpg" alt="Gold Care" class="customer__bottom-img" title="Gold Care">
+               </figure>
+            </div>
+            <div class="col-md-5 col-12" data-aos="fade-left" data-aos-duration="1500">
+               <figure>
+                  <img src="img/sp-2.jpg" alt="Gold Care" class="customer__bottom-img" title="Gold Care">
+               </figure>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Question -->
+   <section class="section question">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="section-title">CÂU HỎI THƯỜNG GẶP VỀ <span>GERMANY GOLD CARE</span> </h2>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+               <ul class="list-ques" data-aos="fade-right" data-aos-duration="1500">
+                  <li data-ques="box-1">
+                     <span>#</span>
+                     <p>Ai có thể dùng Germany Gold Care ?</p>
+                     <div class="icon-list-ques"><i class="fal fa-angle-down"></i></div>
+                  </li>
+                  <div class="text-ques" id="box-1" style="display: none;" data-status="none">
+                     <p>Sản phẩm Germany Gold Care dành cho những đối tượng sau đây:</p>
+                     <ul class="list-ans">
+                        <li>- Những người có tiền sử bệnh đái tháo đường loại I và II</li>
+                        <li>- Người có lượng đường trong máu không ổn định, thường xuyên ở mức cao</li>
+                        <li>- Người có nhu cầu kiểm soát lượng đường huyết của mình</li>
+                        <li>- Người được dự báo sẽ có nhu cầu mắc bệnh tiểu đường</li>
+                        <li>- Người đang mắc chứng mỡ máu, cholesterol máu cao</li>
+                        <li>- Người có cân nặng quá khổ, thừa cân, béo phì</li>
+                     </ul>
+                  </div>
+                  <li data-ques="box-2">
+                     <span>#</span>
+                     <p>Cách dùng Germany Gold Care như thế nào?</p>
+                     <div class="icon-list-ques"><i class="fal fa-angle-down"></i></div>
+                  </li>
+                  <div class="text-ques" id="box-2" style="display: none;" data-status="none">
+                     <p>Sử dụng Germany Gold Care theo đúng hướng dẫn sau để sản phẩm phát huy tác dụng:</p>
+                     <ul class="list-ans">
+                        <li>- Ngày uống 2 lần, mỗi lần 1 viên, sau khi ăn.</li>
+                        <li>- Nếu trong trường hợp lượng đường trong máu đã ổn định chỉ cần uống 1 viên 1 ngày</li>
+                        <li>- Nên kiên trì dùng liệu trình từ 2-3 tháng để có kết quả tốt nhất</li>
+                     </ul>
+                  </div>
+                  <li data-ques="box-3">
+                     <span>#</span>
+                     <p>Germany Gold Care có tác dụng phụ không?</p>
+                     <div class="icon-list-ques"><i class="fal fa-angle-down"></i></div>
+                  </li>
+                  <div class="text-ques" id="box-3" style="display: none;" data-status="none">
+                     <p style="font-weight: 400;">Không như những sản phẩm điều hòa lượng đường trong máu khác, bạn hoàn
+                        toàn có thể yên tâm khi sử dụng Germany Gold Care vì sản phẩm này hoàn toàn không có tác dụng
+                        phụ, đã được chứng nhận của Bộ Y Tế về An Toàn Thực Phẩm, đảm bảo sức khỏe cho người dùng. Tuy
+                        nhiên, nếu bạn có dị ứng với bất kỳ thành phần nào trong sản phẩm, hãy xin lời khuyên từ bác sĩ
+                     </p>
+                  </div>
+                  <li data-ques="box-4">
+                     <span>#</span>
+                     <p>Lưu ý gì khi dùng Germany Gold Care</p>
+                     <div class="icon-list-ques"><i class="fal fa-angle-down"></i></div>
+                  </li>
+                  <div class="text-ques" id="box-4" style="display: none;" data-status="none">
+                     <p>Khi dùng Germany Gold Care, bạn cần lưu ý những điều sau đây:</p>
+                     <ul class="list-ans">
+                        <li>- Không cần kiêng khem bất kỳ món ăn nào trong thời gian uống thuốc</li>
+                        <li>- Không phụ thuộc thuốc, sau khi hết liệu trình không tái phát</li>
+                        <li>- Nếu trong quá trình uống thuốc, có bất kỳ phản ứng nào, hãy liên hệ ngay nhà sản xuất</li>
+                        <li>- Cần theo dõi chỉ số đường trong máu thường xuyên.</li>
+                        <li>- Nên kiên trì dùng liệu trình 2 tháng để có kết quả như ý nhất</li>
+                        <li>- Sản phẩm không phải là thuốc nên có tác dụng nhanh hay chậm phụ thuộc vào cơ địa từng
+                           người</li>
+                        <li>- Tăng cường tập luyện thể dục thể thao để nâng cao sức khỏe</li>
+                        <li>- Sản phẩm chính hãng sẽ có tem chống giả, người dùng nên chú ý để tránh mua hàng giả</li>
+                     </ul>
+                  </div>
+               </ul>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 d-flex align-items-center">
+               <figure class="img-chungnhan" data-toggle="modal" data-target="#myModal" data-aos="fade-left"
+                  data-aos-duration="1500"><img src="img/giay-chung-nhan.png" alt="giay-chung-nhan-germany-gold-care"
+                     class="img-fluid" title="Giấy chứng nhận"></figure>
+               <!-- popup image-->
+               <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                        <div class="icon-modal"><i class="fal fa-times"></i></div>
+                        <div class="modal-body text-center">
+                           <img src="img/giay-chung-nhan.png" class="img-fluid img-modal"
+                              alt="giay-chung-nhan-germany-gold-care" title="Giấy chứng nhận">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row mt-6">
+            <div class="col-12">
+               <figure class="box-form__img" id="img-mobile">
+                  <img src="img/product.png" class="img-fluid" title="Gold Care">
+               </figure>
+               <div class="box-form position-relative" data-aos="zoom-in" data-aos-duration="1500">
+                  <figure class="box-form__img">
+                     <img src="img/product.png" class="img-fluid" title="Gold Care">
+                  </figure>
+                  <h5 class="title-form">#Giảm giá 50%</h5>
+                  <div class="box-price">
+                     <div class="left-price">
+                        <span>1.580.000 VNĐ</span>
+                        <span>Giá chỉ còn</span>
+                     </div>
+                     <div class="right-price">
+                        <span>790.000 VNĐ</span>
+                     </div>
+                  </div>
+                  <form class="formorder" action="" method="post">
+                     <input type="text" name="name" autocomplete="off" required placeholder="*Tên của bạn">
+                     <input type="text" name="phone" autocomplete="off" required placeholder="*Số điện thoại"
+                        maxlength="10" onkeypress="validate(event)">
+                     <center> 
+                        <button type="submit" class="js_submit" id="formorder1">đặt hàng</button>
+                     </center>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--- footer --->
+   <footer class="footer">
+      <div class="footer_content">
+         <div class="container">
+            <div class="row">
+               <!-- Footer About -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_about">
+                     <div class="footer_logo">
+                        <a href="">
+                           <img alt="Gold Care" src="img/logo-footer.png" class="img-fluid" title="Gold Care">
+                        </a>
+                     </div>
+                     <div class="footer_about_text">
+                        <p>Phân phối độc quyền bởi <br>Công ty TNHH Soji Labs</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- Footer Contact Info -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_contact">
+                     <div class="footer_title">Liên hệ</div>
+                     <ul class="contact_list">
+                        <li><i class="fal fa-phone"></i><a href="tel:02873070789">02873070789</a></li>
+                        <li><i class="fal fa-envelope-open"></i><a href="mailto:ecom@soji.asia">ecom@soji.asia</a></li>
+                        <li><i class="fal fa-browser"></i><a href="#">https://germanygoldcare.com/</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Footer Locations -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="footer_location">
+                     <div class="footer_title">Địa chỉ</div>
+                     <ul class="locations_list">
+                        <li>
+                           <div class="location_title">TP. Hồ Chí Minh</div>
+                           <div class="location_text">
+                              <p><i class="fal fa-map-marker-alt" style="margin-right: 10px"></i>199 Điện Biên Phủ,
+                                 Phường 15, Bình Thạnh</p>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <!-- Footer Opening Hours -->
+               <div class="col-lg-3 col-md-3 footer_col">
+                  <div class="opening_hours">
+                     <div class="footer_title">Theo dõi Gold Care</div>
+                     <ul class="opening_hours_list">
+                        <li>
+                           <a target="_blank" href="#"><img alt="Facebook" title="Facebook" src="img/icon-facebook.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Twitter" title="Twitter" src="img/icon-twitter.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Youtube" title="Youtube" src="img/icon-youtube.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Instagram" title="Instagram" src="img/icon-ins.png">
+                           </a>
+                        </li>
+                        <li>
+                           <a target="_blank" href="#"><img alt="Viber" title="Viber" src="img/icon-viber.png">
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <a id="button_scroll_top"><i class="fas fa-arrow-up"></i></a>
+   <a id="calltrap-btn" class="b-calltrap-btn calltrap_offline hidden-phone visible-tablet pulse-2"
+      href="tel:02873070789">
+      <div id="calltrap-ico"></div>
+   </a>
+   <script type="text/javascript" src="js/jquery3.3.1.js"></script>
+   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/aos.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
